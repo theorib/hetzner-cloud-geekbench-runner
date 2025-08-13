@@ -1,0 +1,16 @@
+{
+  "name": "hetzner-ground-control",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "oxlint src"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "oxlint": "^1.11.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@pulumi/hcloud": "^1.24.0",
+    "@pulumi/pulumi": "^3.113.0"
+  }
+}
